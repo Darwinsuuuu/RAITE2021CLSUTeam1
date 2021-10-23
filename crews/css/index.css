@@ -1,0 +1,179 @@
+@import url(global.css);
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-blue) !important;
+    padding: 20px 30px;
+}
+
+.header img {
+    width: 150px;
+}
+
+.navigation {
+    display: block;
+    position: relative;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 25px;
+}
+
+.navigation ul li a {
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.navigation ul li a:hover {
+    transition: .3s all;
+    color: var(--color-yellow);
+}
+
+
+.text-header-title {
+    color: #666666;
+    text-transform: uppercase;
+}
+
+.card-contract {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 45px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+}
+
+.card-contract:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .3);
+}
+
+.card-contract p {
+    padding: 0;
+    margin: 0;
+}
+
+.card-contract p.header-contract-title {
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-contract p.contract-description {
+    font-family: var(--poppins);
+    color: #666666;
+}
+
+.card-details {
+    margin: auto;
+}
+
+.contact-button-wrapper button {
+    width: 150px;
+}
+
+.end-of-file {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.end-of-file span.line {
+    display: block;
+    background-color: #bcbcbc;
+    width: 45%;
+    height: 2px;
+    border-radius: 7px;
+    margin-top: -15px;
+}
+
+
+/* index styling */
+.profile-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding: 10px 0 0;
+}
+
+.profile-navigation p {
+    font-family: var(--poppins);
+    font-size: 20px;
+    width: 160px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.profile-navigation p.active {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.details-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.profile-wrapper {
+    display: block;
+    width: 35%;
+}
+
+.profile-wrapper img {
+    width: 100%;
+}
+
+.profile-wrapper a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.employee-details-wrapper {
+    width: 100%;
+    margin: 0 55px;
+}
+
+
+
+
+p.detail-header {
+    font-family: var(--montserrat);
+    text-transform: capitalize;
+    color: #666666;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+p.sub-employee-details {
+    font-family: var(--raleway);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.info-description {
+    font-size: 19px;
+    color: #666666;
+}
