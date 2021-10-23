@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.bg-seaferer {
+    background: #0032a0;
+}
+
+.text-seaferer {
+    color: #0032a0 !important;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .my-responsive-nav {
+        height: fit-content !important;
+    }
+}
+
+.nav-item a:hover {
+    background: #002781;
+}
+
+.my-active {
+    background: #001441 !important;
+}
