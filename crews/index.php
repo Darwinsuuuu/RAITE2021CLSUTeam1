@@ -3,12 +3,18 @@
     include_once 'db/db_connect.php';    
     
     session_start();
-    $id = $_SESSION["id"];
 
-    $sql = "SELECT * FROM tbl_employees WHERE employee_id = $id";
+    if(isset($_SESSION['id'])) {
+        $id = $_SESSION["id"];
 
-    $result = mysqli_query($connect, $sql);
-    $row = mysqli_fetch_assoc($result);
+        $sql = "SELECT * FROM tbl_employees WHERE employee_id = $id";
+    
+        $result = mysqli_query($connect, $sql);
+        $row = mysqli_fetch_assoc($result);
+    } else {
+        header("Location: login.php");
+    }
+   
 
 
 
